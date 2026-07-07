@@ -1,0 +1,207 @@
+Model,Regime,Feature
+Classical LASSO,All,Close_to_EMA_10
+Classical LASSO,All,Close_to_SMA_50
+Classical LASSO,All,Daily_Return
+Classical LASSO,All,Log_Return
+Classical LASSO,All,Normalized_ATR
+Classical LASSO,All,ROC_10
+Classical LASSO,All,Volatility_20
+Elastic Net,All,Close_to_EMA_10
+Elastic Net,All,Close_to_SMA_50
+Elastic Net,All,Daily_Return
+Elastic Net,All,Log_Return
+Elastic Net,All,Normalized_ATR
+Elastic Net,All,ROC_10
+Elastic Net,All,Volatility_20
+Adaptive LASSO,All,Close_to_EMA_10
+Adaptive LASSO,All,Daily_Return
+Adaptive LASSO,All,Log_Return
+Adaptive LASSO,All,Normalized_ATR
+Adaptive LASSO,All,Volatility_20
+Regime-specific LASSO,Recovery,ATR_14
+Regime-specific LASSO,Recovery,MACD_Histogram
+Regime-specific LASSO,Recovery,Volatility_20
+Regime-specific LASSO,Bull,Close_to_SMA_10
+Regime-specific LASSO,Bull,Momentum_10
+Regime-specific LASSO,Bull,Volatility_20
+Regime-specific LASSO,Bear,Close_to_EMA_50
+Regime-specific LASSO,Bear,Close_to_SMA_20
+Regime-specific LASSO,Bear,Close_to_SMA_50
+Regime-specific LASSO,Bear,Log_Return
+Regime-specific LASSO,Bear,Normalized_ATR
+Regime-specific LASSO,Bear,RSI_14
+Regime-specific LASSO,Crisis,Bollinger_Position
+Regime-specific LASSO,Crisis,Bollinger_Width
+Regime-specific LASSO,Crisis,Close_to_EMA_10
+Regime-specific LASSO,Crisis,Close_to_SMA_20
+Regime-specific LASSO,Crisis,Close_to_SMA_50
+Regime-specific LASSO,Crisis,MACD_Histogram
+Regime-specific LASSO,Crisis,MACD_Signal
+Regime-specific LASSO,Crisis,Normalized_ATR
+Regime-specific LASSO,Crisis,ROC_10
+Regime-specific LASSO,Crisis,Volatility_20
+Regime-specific LASSO,Crisis,Volume_Ratio
+Standard Bayesian LASSO,All,Close_to_EMA_10
+Standard Bayesian LASSO,All,Close_to_SMA_50
+Standard Bayesian LASSO,All,Daily_Return
+Standard Bayesian LASSO,All,Log_Return
+Standard Bayesian LASSO,All,Normalized_ATR
+Regime-specific Bayesian LASSO,Recovery,Close_to_EMA_10
+Regime-specific Bayesian LASSO,Recovery,Close_to_EMA_20
+Regime-specific Bayesian LASSO,Recovery,Close_to_SMA_20
+Regime-specific Bayesian LASSO,Recovery,Close_to_SMA_50
+Regime-specific Bayesian LASSO,Recovery,Daily_Return
+Regime-specific Bayesian LASSO,Recovery,Log_Return
+Regime-specific Bayesian LASSO,Bull,Close_to_EMA_10
+Regime-specific Bayesian LASSO,Bull,Close_to_EMA_20
+Regime-specific Bayesian LASSO,Bull,Close_to_EMA_50
+Regime-specific Bayesian LASSO,Bull,Close_to_SMA_10
+Regime-specific Bayesian LASSO,Bull,Close_to_SMA_20
+Regime-specific Bayesian LASSO,Bull,Close_to_SMA_50
+Regime-specific Bayesian LASSO,Bull,Daily_Return
+Regime-specific Bayesian LASSO,Bull,Log_Return
+Regime-specific Bayesian LASSO,Bull,MACD
+Regime-specific Bayesian LASSO,Bull,MACD_Histogram
+Regime-specific Bayesian LASSO,Bull,MACD_Signal
+Regime-specific Bayesian LASSO,Bull,Volatility_20
+Regime-specific Bayesian LASSO,Bear,Close_to_EMA_10
+Regime-specific Bayesian LASSO,Bear,Close_to_EMA_20
+Regime-specific Bayesian LASSO,Bear,Close_to_EMA_50
+Regime-specific Bayesian LASSO,Bear,Close_to_SMA_10
+Regime-specific Bayesian LASSO,Bear,Close_to_SMA_20
+Regime-specific Bayesian LASSO,Bear,Close_to_SMA_50
+Regime-specific Bayesian LASSO,Bear,Daily_Return
+Regime-specific Bayesian LASSO,Bear,Log_Return
+Regime-specific Bayesian LASSO,Bear,MACD
+Regime-specific Bayesian LASSO,Bear,MACD_Signal
+Regime-specific Bayesian LASSO,Bear,Normalized_ATR
+Regime-specific Bayesian LASSO,Bear,RSI_14
+Regime-specific Bayesian LASSO,Crisis,Close_to_EMA_10
+Regime-specific Bayesian LASSO,Crisis,Close_to_EMA_20
+Regime-specific Bayesian LASSO,Crisis,Close_to_SMA_20
+Regime-specific Bayesian LASSO,Crisis,Daily_Return
+Regime-specific Bayesian LASSO,Crisis,Log_Return
+Regime-specific Bayesian LASSO,Crisis,Normalized_ATR
+Regime-specific Bayesian LASSO,Crisis,ROC_10
+Regime-specific Bayesian LASSO,Crisis,Volatility_20
+Proposed Prior - Uncertainty Only,Recovery,Close_to_EMA_10
+Proposed Prior - Uncertainty Only,Recovery,Close_to_EMA_20
+Proposed Prior - Uncertainty Only,Recovery,Close_to_SMA_20
+Proposed Prior - Uncertainty Only,Recovery,Close_to_SMA_50
+Proposed Prior - Uncertainty Only,Recovery,Daily_Return
+Proposed Prior - Uncertainty Only,Recovery,Log_Return
+Proposed Prior - Uncertainty Only,Bull,Close_to_EMA_10
+Proposed Prior - Uncertainty Only,Bull,Close_to_EMA_20
+Proposed Prior - Uncertainty Only,Bull,Close_to_EMA_50
+Proposed Prior - Uncertainty Only,Bull,Close_to_SMA_10
+Proposed Prior - Uncertainty Only,Bull,Close_to_SMA_20
+Proposed Prior - Uncertainty Only,Bull,Close_to_SMA_50
+Proposed Prior - Uncertainty Only,Bull,Daily_Return
+Proposed Prior - Uncertainty Only,Bull,Log_Return
+Proposed Prior - Uncertainty Only,Bull,MACD
+Proposed Prior - Uncertainty Only,Bull,MACD_Signal
+Proposed Prior - Uncertainty Only,Bull,Volatility_20
+Proposed Prior - Uncertainty Only,Bear,Bollinger_Position
+Proposed Prior - Uncertainty Only,Bear,Close_to_EMA_10
+Proposed Prior - Uncertainty Only,Bear,Close_to_EMA_20
+Proposed Prior - Uncertainty Only,Bear,Close_to_EMA_50
+Proposed Prior - Uncertainty Only,Bear,Close_to_SMA_10
+Proposed Prior - Uncertainty Only,Bear,Close_to_SMA_20
+Proposed Prior - Uncertainty Only,Bear,Close_to_SMA_50
+Proposed Prior - Uncertainty Only,Bear,Daily_Return
+Proposed Prior - Uncertainty Only,Bear,Log_Return
+Proposed Prior - Uncertainty Only,Bear,MACD
+Proposed Prior - Uncertainty Only,Bear,Normalized_ATR
+Proposed Prior - Uncertainty Only,Bear,RSI_14
+Proposed Prior - Uncertainty Only,Crisis,Close_to_EMA_10
+Proposed Prior - Uncertainty Only,Crisis,Close_to_EMA_20
+Proposed Prior - Uncertainty Only,Crisis,Close_to_EMA_50
+Proposed Prior - Uncertainty Only,Crisis,Close_to_SMA_20
+Proposed Prior - Uncertainty Only,Crisis,Close_to_SMA_50
+Proposed Prior - Uncertainty Only,Crisis,Daily_Return
+Proposed Prior - Uncertainty Only,Crisis,Log_Return
+Proposed Prior - Uncertainty Only,Crisis,MACD_Histogram
+Proposed Prior - Uncertainty Only,Crisis,Normalized_ATR
+Proposed Prior - Uncertainty Only,Crisis,ROC_10
+Proposed Prior - Uncertainty Only,Crisis,Volatility_20
+Proposed Prior - Uncertainty Only,Crisis,Volume_Ratio
+Proposed Prior - Evidence Only,Recovery,Close_to_EMA_10
+Proposed Prior - Evidence Only,Recovery,Close_to_EMA_20
+Proposed Prior - Evidence Only,Recovery,Close_to_SMA_20
+Proposed Prior - Evidence Only,Recovery,Close_to_SMA_50
+Proposed Prior - Evidence Only,Recovery,Daily_Return
+Proposed Prior - Evidence Only,Recovery,Log_Return
+Proposed Prior - Evidence Only,Bull,Close_to_EMA_10
+Proposed Prior - Evidence Only,Bull,Close_to_EMA_20
+Proposed Prior - Evidence Only,Bull,Close_to_EMA_50
+Proposed Prior - Evidence Only,Bull,Close_to_SMA_10
+Proposed Prior - Evidence Only,Bull,Close_to_SMA_20
+Proposed Prior - Evidence Only,Bull,Close_to_SMA_50
+Proposed Prior - Evidence Only,Bull,Daily_Return
+Proposed Prior - Evidence Only,Bull,Log_Return
+Proposed Prior - Evidence Only,Bull,MACD
+Proposed Prior - Evidence Only,Bull,MACD_Histogram
+Proposed Prior - Evidence Only,Bull,MACD_Signal
+Proposed Prior - Evidence Only,Bull,Volatility_20
+Proposed Prior - Evidence Only,Bear,Close_to_EMA_10
+Proposed Prior - Evidence Only,Bear,Close_to_EMA_20
+Proposed Prior - Evidence Only,Bear,Close_to_EMA_50
+Proposed Prior - Evidence Only,Bear,Close_to_SMA_10
+Proposed Prior - Evidence Only,Bear,Close_to_SMA_20
+Proposed Prior - Evidence Only,Bear,Close_to_SMA_50
+Proposed Prior - Evidence Only,Bear,Daily_Return
+Proposed Prior - Evidence Only,Bear,Log_Return
+Proposed Prior - Evidence Only,Bear,MACD
+Proposed Prior - Evidence Only,Bear,MACD_Signal
+Proposed Prior - Evidence Only,Bear,Normalized_ATR
+Proposed Prior - Evidence Only,Bear,RSI_14
+Proposed Prior - Evidence Only,Crisis,Close_to_EMA_10
+Proposed Prior - Evidence Only,Crisis,Close_to_EMA_20
+Proposed Prior - Evidence Only,Crisis,Close_to_SMA_20
+Proposed Prior - Evidence Only,Crisis,Daily_Return
+Proposed Prior - Evidence Only,Crisis,Log_Return
+Proposed Prior - Evidence Only,Crisis,MACD_Histogram
+Proposed Prior - Evidence Only,Crisis,Normalized_ATR
+Proposed Prior - Evidence Only,Crisis,ROC_10
+Proposed Prior - Evidence Only,Crisis,Volatility_20
+Proposed Prior - Full,Recovery,Close_to_EMA_10
+Proposed Prior - Full,Recovery,Close_to_EMA_20
+Proposed Prior - Full,Recovery,Close_to_SMA_20
+Proposed Prior - Full,Recovery,Close_to_SMA_50
+Proposed Prior - Full,Recovery,Daily_Return
+Proposed Prior - Full,Recovery,Log_Return
+Proposed Prior - Full,Bull,Close_to_EMA_10
+Proposed Prior - Full,Bull,Close_to_EMA_20
+Proposed Prior - Full,Bull,Close_to_EMA_50
+Proposed Prior - Full,Bull,Close_to_SMA_10
+Proposed Prior - Full,Bull,Close_to_SMA_20
+Proposed Prior - Full,Bull,Close_to_SMA_50
+Proposed Prior - Full,Bull,Daily_Return
+Proposed Prior - Full,Bull,Log_Return
+Proposed Prior - Full,Bull,MACD
+Proposed Prior - Full,Bull,MACD_Signal
+Proposed Prior - Full,Bull,Volatility_20
+Proposed Prior - Full,Bear,Bollinger_Width
+Proposed Prior - Full,Bear,Close_to_EMA_10
+Proposed Prior - Full,Bear,Close_to_EMA_20
+Proposed Prior - Full,Bear,Close_to_EMA_50
+Proposed Prior - Full,Bear,Close_to_SMA_10
+Proposed Prior - Full,Bear,Close_to_SMA_20
+Proposed Prior - Full,Bear,Close_to_SMA_50
+Proposed Prior - Full,Bear,Daily_Return
+Proposed Prior - Full,Bear,Log_Return
+Proposed Prior - Full,Bear,MACD
+Proposed Prior - Full,Bear,Normalized_ATR
+Proposed Prior - Full,Bear,RSI_14
+Proposed Prior - Full,Crisis,Close_to_EMA_10
+Proposed Prior - Full,Crisis,Close_to_EMA_20
+Proposed Prior - Full,Crisis,Close_to_EMA_50
+Proposed Prior - Full,Crisis,Close_to_SMA_20
+Proposed Prior - Full,Crisis,Close_to_SMA_50
+Proposed Prior - Full,Crisis,Daily_Return
+Proposed Prior - Full,Crisis,Log_Return
+Proposed Prior - Full,Crisis,MACD_Histogram
+Proposed Prior - Full,Crisis,Normalized_ATR
+Proposed Prior - Full,Crisis,ROC_10
+Proposed Prior - Full,Crisis,Volatility_20
+Proposed Prior - Full,Crisis,Volume_Ratio
