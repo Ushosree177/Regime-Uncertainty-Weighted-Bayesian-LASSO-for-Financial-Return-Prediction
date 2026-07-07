@@ -1,0 +1,27 @@
+STATISTICAL SIGNIFICANCE TEST INTERPRETATION
+
+Question:
+Are the repeated simulation improvements statistically meaningful?
+
+Strong scenario RMSE results:
+  Case  Samples_Per_Regime                Baseline Metric  Proposed_Mean  Baseline_Mean  Improvement_Mean  Improvement_95CI_Lower  Improvement_95CI_Upper  P_Value_Display P_Value_Text  Cohens_D_Paired  Significant_0.05
+Strong                5000         Classical LASSO   RMSE       1.209450       1.645512          0.436061                0.425893                0.446230            0.001    p < 0.001        30.677716              True
+Strong                5000 Standard Bayesian LASSO   RMSE       1.209450       1.645270          0.435820                0.425825                0.445815            0.001    p < 0.001        31.191261              True
+Strong               10000         Classical LASSO   RMSE       1.213973       1.652210          0.438237                0.431162                0.445311            0.001    p < 0.001        44.314590              True
+Strong               10000 Standard Bayesian LASSO   RMSE       1.213973       1.652346          0.438373                0.431572                0.445175            0.001    p < 0.001        46.105100              True
+
+Weak scenario RMSE results:
+Case  Samples_Per_Regime                Baseline Metric  Proposed_Mean  Baseline_Mean  Improvement_Mean  Improvement_95CI_Lower  Improvement_95CI_Upper  P_Value_Display P_Value_Text  Cohens_D_Paired  Significant_0.05
+Weak                5000         Classical LASSO   RMSE       1.081328       1.084915          0.003587                0.001787                0.005387         0.001472    p = 0.001         1.425519              True
+Weak                5000 Standard Bayesian LASSO   RMSE       1.081328       1.085568          0.004240                0.002183                0.006298         0.001183    p = 0.001         1.474103              True
+Weak               10000         Classical LASSO   RMSE       1.085905       1.089837          0.003933                0.002785                0.005080         0.001000    p < 0.001         2.452299              True
+Weak               10000 Standard Bayesian LASSO   RMSE       1.085905       1.090127          0.004222                0.002811                0.005633         0.001000    p < 0.001         2.140682              True
+
+Interpretation guide:
+Positive improvement means the proposed prior is better.
+For RMSE and MAE, improvement = baseline - proposed.
+For R2 and direction accuracy, improvement = proposed - baseline.
+
+Research meaning:
+If the Strong scenario has significant positive RMSE improvement, the simulation supports the claim that the proposed prior helps when regime structures are truly different.
+If the Weak scenario has very small improvement, that supports the claim that the method should not be expected to dominate when regimes are not meaningfully different.
