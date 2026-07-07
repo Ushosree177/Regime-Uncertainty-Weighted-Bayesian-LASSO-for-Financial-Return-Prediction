@@ -1,0 +1,22 @@
+DAY 5 INTERPRETATION
+
+1. The HMM regimes are meaningful because volatility changes clearly by regime.
+   Crisis volatility is 0.026956, while Recovery volatility is 0.005565.
+
+2. The transition matrix tells us whether regimes are persistent.
+   Large diagonal values mean the market usually stays in the same regime from one day to the next.
+
+            Bear  Crisis    Bull  Recovery
+Bear      0.9590  0.0094  0.0315    0.0000
+Crisis    0.0200  0.9800  0.0000    0.0000
+Bull      0.0154  0.0000  0.9469    0.0377
+Recovery  0.0078  0.0000  0.0156    0.9766
+
+3. Indicator behavior changes across regimes.
+   ATR is highest in: Crisis
+   Volume Ratio is highest in: Bear
+   RSI is highest in: Recovery
+
+4. Research meaning:
+   If ATR, volume, RSI, MACD, and volatility behave differently in different regimes, then one fixed feature-selection model is too rigid.
+   This supports the next idea: Regime-Adaptive Bayesian LASSO, where each market regime can have its own important indicators.

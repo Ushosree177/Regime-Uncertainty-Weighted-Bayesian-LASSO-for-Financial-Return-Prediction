@@ -1,0 +1,11 @@
+,Indicator,Highest_Regime,Highest_Value,Lowest_Regime,Lowest_Value
+0,RSI_14,Recovery,61.807314,Crisis,48.202992
+1,MACD,Recovery,1.88907,Crisis,-2.409272
+2,MACD_Histogram,Crisis,0.149467,Bear,-0.089645
+3,EMA_20,Bull,276.912333,Crisis,206.409249
+4,ATR_14,Crisis,6.098997,Recovery,2.002057
+5,Volatility_20,Crisis,0.024971,Recovery,0.005415
+6,Volume_Ratio,Bear,1.07137,Bull,0.968693
+7,Bollinger_Width,Crisis,0.150087,Recovery,0.039799
+8,Bollinger_Position,Recovery,0.695864,Bear,0.459469
+9,OBV,Recovery,5436910528.703704,Crisis,3014374354.901961

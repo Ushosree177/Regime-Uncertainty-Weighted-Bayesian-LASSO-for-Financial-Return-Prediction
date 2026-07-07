@@ -1,0 +1,121 @@
+Precision,Recall,F1,Selected_Count,True_Count,Model,Case,Samples_Per_Regime,Replication
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,5000,1
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,5000,1
+1.0,0.95,0.972222,4.75,5.0,Proposed Prior,Weak,5000,1
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,10000,1
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,10000,1
+1.0,0.9,0.944444,4.5,5.0,Proposed Prior,Weak,10000,1
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,5000,1
+1.0,1.0,1.0,12.0,12.0,Standard Bayesian LASSO,Strong,5000,1
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,5000,1
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,10000,1
+1.0,1.0,1.0,12.0,12.0,Standard Bayesian LASSO,Strong,10000,1
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,10000,1
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,5000,2
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,5000,2
+1.0,0.95,0.972222,4.75,5.0,Proposed Prior,Weak,5000,2
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,10000,2
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,10000,2
+1.0,0.9,0.944444,4.5,5.0,Proposed Prior,Weak,10000,2
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,5000,2
+0.857143,1.0,0.923077,14.0,12.0,Standard Bayesian LASSO,Strong,5000,2
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,5000,2
+0.8,1.0,0.888889,15.0,12.0,Classical LASSO,Strong,10000,2
+0.923077,1.0,0.96,13.0,12.0,Standard Bayesian LASSO,Strong,10000,2
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,10000,2
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,5000,3
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,5000,3
+1.0,0.95,0.972222,4.75,5.0,Proposed Prior,Weak,5000,3
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,10000,3
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,10000,3
+1.0,0.95,0.972222,4.75,5.0,Proposed Prior,Weak,10000,3
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,5000,3
+1.0,1.0,1.0,12.0,12.0,Standard Bayesian LASSO,Strong,5000,3
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,5000,3
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,10000,3
+1.0,1.0,1.0,12.0,12.0,Standard Bayesian LASSO,Strong,10000,3
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,10000,3
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,5000,4
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,5000,4
+1.0,0.9,0.944444,4.5,5.0,Proposed Prior,Weak,5000,4
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,10000,4
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,10000,4
+1.0,0.95,0.972222,4.75,5.0,Proposed Prior,Weak,10000,4
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,5000,4
+0.923077,1.0,0.96,13.0,12.0,Standard Bayesian LASSO,Strong,5000,4
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,5000,4
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,10000,4
+1.0,1.0,1.0,12.0,12.0,Standard Bayesian LASSO,Strong,10000,4
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,10000,4
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,5000,5
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,5000,5
+1.0,0.9,0.944444,4.5,5.0,Proposed Prior,Weak,5000,5
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,10000,5
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,10000,5
+1.0,0.95,0.972222,4.75,5.0,Proposed Prior,Weak,10000,5
+0.923077,1.0,0.96,13.0,12.0,Classical LASSO,Strong,5000,5
+0.923077,1.0,0.96,13.0,12.0,Standard Bayesian LASSO,Strong,5000,5
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,5000,5
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,10000,5
+1.0,1.0,1.0,12.0,12.0,Standard Bayesian LASSO,Strong,10000,5
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,10000,5
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,5000,6
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,5000,6
+1.0,0.95,0.972222,4.75,5.0,Proposed Prior,Weak,5000,6
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,10000,6
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,10000,6
+1.0,0.9,0.944444,4.5,5.0,Proposed Prior,Weak,10000,6
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,5000,6
+0.923077,1.0,0.96,13.0,12.0,Standard Bayesian LASSO,Strong,5000,6
+0.9375,0.9375,0.928571,3.25,3.25,Proposed Prior,Strong,5000,6
+0.923077,1.0,0.96,13.0,12.0,Classical LASSO,Strong,10000,6
+0.923077,1.0,0.96,13.0,12.0,Standard Bayesian LASSO,Strong,10000,6
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,10000,6
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,5000,7
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,5000,7
+1.0,0.9,0.944444,4.5,5.0,Proposed Prior,Weak,5000,7
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,10000,7
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,10000,7
+1.0,0.95,0.972222,4.75,5.0,Proposed Prior,Weak,10000,7
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,5000,7
+1.0,1.0,1.0,12.0,12.0,Standard Bayesian LASSO,Strong,5000,7
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,5000,7
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,10000,7
+1.0,1.0,1.0,12.0,12.0,Standard Bayesian LASSO,Strong,10000,7
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,10000,7
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,5000,8
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,5000,8
+1.0,0.9,0.944444,4.5,5.0,Proposed Prior,Weak,5000,8
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,10000,8
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,10000,8
+1.0,0.95,0.972222,4.75,5.0,Proposed Prior,Weak,10000,8
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,5000,8
+0.923077,1.0,0.96,13.0,12.0,Standard Bayesian LASSO,Strong,5000,8
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,5000,8
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,10000,8
+0.923077,1.0,0.96,13.0,12.0,Standard Bayesian LASSO,Strong,10000,8
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,10000,8
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,5000,9
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,5000,9
+1.0,0.95,0.972222,4.75,5.0,Proposed Prior,Weak,5000,9
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,10000,9
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,10000,9
+1.0,0.95,0.972222,4.75,5.0,Proposed Prior,Weak,10000,9
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,5000,9
+1.0,1.0,1.0,12.0,12.0,Standard Bayesian LASSO,Strong,5000,9
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,5000,9
+1.0,1.0,1.0,12.0,12.0,Classical LASSO,Strong,10000,9
+0.857143,1.0,0.923077,14.0,12.0,Standard Bayesian LASSO,Strong,10000,9
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,10000,9
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,5000,10
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,5000,10
+1.0,0.95,0.972222,4.75,5.0,Proposed Prior,Weak,5000,10
+1.0,0.5,0.666667,4.0,8.0,Classical LASSO,Weak,10000,10
+1.0,0.5,0.666667,4.0,8.0,Standard Bayesian LASSO,Weak,10000,10
+1.0,0.95,0.972222,4.75,5.0,Proposed Prior,Weak,10000,10
+0.923077,1.0,0.96,13.0,12.0,Classical LASSO,Strong,5000,10
+0.923077,1.0,0.96,13.0,12.0,Standard Bayesian LASSO,Strong,5000,10
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,5000,10
+0.923077,1.0,0.96,13.0,12.0,Classical LASSO,Strong,10000,10
+1.0,1.0,1.0,12.0,12.0,Standard Bayesian LASSO,Strong,10000,10
+1.0,0.9375,0.964286,3.0,3.25,Proposed Prior,Strong,10000,10

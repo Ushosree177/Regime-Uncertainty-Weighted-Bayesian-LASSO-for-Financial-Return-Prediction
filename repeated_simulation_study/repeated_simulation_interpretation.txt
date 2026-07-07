@@ -1,0 +1,48 @@
+REPEATED SIMULATION STUDY INTERPRETATION
+
+Number of replications: 10
+
+Prediction summary:
+  Case  Samples_Per_Regime                   Model  RMSE_Mean  RMSE_Std  MAE_Mean  MAE_Std  R2_Mean   R2_Std  Direction_Accuracy_Mean  Direction_Accuracy_Std
+Strong                5000          Proposed Prior   1.209450  0.015172  0.931939 0.013154 0.494569 0.009305                  0.75950                0.004978
+Strong                5000 Standard Bayesian LASSO   1.645270  0.020468  1.298927 0.015193 0.064788 0.008216                  0.58272                0.006081
+Strong                5000         Classical LASSO   1.645512  0.020295  1.299118 0.015400 0.064514 0.007882                  0.58228                0.007813
+Strong               10000          Proposed Prior   1.213973  0.009589  0.935157 0.008583 0.494375 0.007458                  0.76118                0.004949
+Strong               10000         Classical LASSO   1.652209  0.012451  1.306189 0.009760 0.063507 0.004415                  0.58618                0.004028
+Strong               10000 Standard Bayesian LASSO   1.652346  0.012347  1.307020 0.010600 0.063350 0.004731                  0.58424                0.003337
+  Weak                5000          Proposed Prior   1.081328  0.010689  0.862732 0.008608 0.252808 0.011388                  0.66650                0.007528
+  Weak                5000         Classical LASSO   1.084915  0.010938  0.865364 0.008614 0.247835 0.012266                  0.66496                0.007660
+  Weak                5000 Standard Bayesian LASSO   1.085568  0.011104  0.865764 0.008726 0.246927 0.012458                  0.66526                0.007346
+  Weak               10000          Proposed Prior   1.085905  0.006608  0.864678 0.005045 0.252185 0.005160                  0.66752                0.004382
+  Weak               10000         Classical LASSO   1.089837  0.005454  0.868588 0.004214 0.246745 0.006039                  0.66474                0.004958
+  Weak               10000 Standard Bayesian LASSO   1.090127  0.005323  0.868520 0.004125 0.246338 0.006865                  0.66596                0.003939
+
+Feature recovery summary:
+  Case  Samples_Per_Regime                   Model  Precision_Mean  Precision_Std  Recall_Mean  Recall_Std  F1_Mean   F1_Std  Selected_Count_Mean  Selected_Count_Std
+Strong                5000         Classical LASSO        0.984615       0.032434       1.0000    0.000000 0.992000 0.016865               12.200            0.421637
+Strong                5000 Standard Bayesian LASSO        0.947253       0.049633       1.0000    0.000000 0.972308 0.026349               12.700            0.674949
+Strong                5000          Proposed Prior        0.993750       0.019764       0.9375    0.000000 0.960714 0.011294                3.025            0.079057
+Strong               10000         Classical LASSO        0.964615       0.066092       1.0000    0.000000 0.980889 0.036352               12.500            0.971825
+Strong               10000 Standard Bayesian LASSO        0.962637       0.051854       1.0000    0.000000 0.980308 0.027567               12.500            0.707107
+Strong               10000          Proposed Prior        1.000000       0.000000       0.9375    0.000000 0.964286 0.000000                3.000            0.000000
+  Weak                5000          Proposed Prior        1.000000       0.000000       0.9300    0.025820 0.961111 0.014344                4.650            0.129099
+  Weak                5000         Classical LASSO        1.000000       0.000000       0.5000    0.000000 0.666667 0.000000                4.000            0.000000
+  Weak                5000 Standard Bayesian LASSO        1.000000       0.000000       0.5000    0.000000 0.666667 0.000000                4.000            0.000000
+  Weak               10000          Proposed Prior        1.000000       0.000000       0.9350    0.024152 0.963889 0.013418                4.675            0.120761
+  Weak               10000         Classical LASSO        1.000000       0.000000       0.5000    0.000000 0.666667 0.000000                4.000            0.000000
+  Weak               10000 Standard Bayesian LASSO        1.000000       0.000000       0.5000    0.000000 0.666667 0.000000                4.000            0.000000
+
+Improvement of proposed prior over baselines:
+  Case  Samples_Per_Regime                Baseline  RMSE_Improvement_Mean  RMSE_Improvement_Std  RMSE_Improvement_Percent_Mean  R2_Improvement_Mean  Direction_Accuracy_Improvement_Mean
+Strong                5000         Classical LASSO               0.436061              0.014214                      26.497335             0.430056                              0.17722
+Strong                5000 Standard Bayesian LASSO               0.435820              0.013972                      26.486614             0.429782                              0.17678
+Strong               10000         Classical LASSO               0.438237              0.009889                      26.522983             0.430868                              0.17500
+Strong               10000 Standard Bayesian LASSO               0.438374              0.009508                      26.529201             0.431026                              0.17694
+  Weak                5000         Classical LASSO               0.003586              0.002516                       0.330146             0.004973                              0.00154
+  Weak                5000 Standard Bayesian LASSO               0.004240              0.002877                       0.389973             0.005881                              0.00124
+  Weak               10000         Classical LASSO               0.003933              0.001604                       0.361288             0.005440                              0.00278
+  Weak               10000 Standard Bayesian LASSO               0.004222              0.001972                       0.387738             0.005847                              0.00156
+
+Research meaning:
+Repeated simulations reduce the chance that the earlier simulation result was caused by one lucky random seed.
+If the proposed prior has positive average RMSE improvement in the Strong case, it supports the claim that adaptive sparsity helps when regimes really have different active features.
