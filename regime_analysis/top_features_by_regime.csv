@@ -1,0 +1,11 @@
+Rank,Recovery,Bull,Bear,Crisis
+1,Normalized_ATR,Normalized_ATR,ATR_14,Normalized_ATR
+2,ATR_14,ATR_14,Normalized_ATR,Close_to_EMA_10
+3,OBV_Change,Close_to_EMA_20,Volatility_20,Daily_Return
+4,RSI_14,Volume_Ratio,Close_to_EMA_50,Close_to_SMA_10
+5,Momentum_10,Close_to_SMA_10,Bollinger_Width,OBV_Change
+6,Volatility_20,Close_to_EMA_50,ROC_10,MACD
+7,Close_to_EMA_50,Close_to_EMA_10,Volume_Ratio,Volume_Ratio
+8,Close_to_SMA_20,Volatility_20,MACD_Signal,Close_to_EMA_20
+9,Close_to_SMA_50,OBV_Change,OBV_Change,Close_to_EMA_50
+10,ROC_10,Bollinger_Position,Close_to_SMA_50,Close_to_SMA_50
