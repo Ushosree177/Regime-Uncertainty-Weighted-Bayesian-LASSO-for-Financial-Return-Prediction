@@ -1,0 +1,2 @@
+RMSE,MAE,R2,Direction_Accuracy,Gamma,Delta,Selected_By
+1.226947,0.947307,0.494986,0.76175,1.0,0.1,Lowest validation RMSE
