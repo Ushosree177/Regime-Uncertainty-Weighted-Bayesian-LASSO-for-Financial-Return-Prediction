@@ -1,0 +1,8 @@
+pandas
+numpy
+yfinance
+hmmlearn
+scikit-learn
+matplotlib
+xgboost
+shap
