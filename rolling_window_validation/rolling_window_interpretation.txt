@@ -1,0 +1,18 @@
+ROLLING-WINDOW VALIDATION INTERPRETATION
+
+Test years: 2015 to 2025
+
+Average performance across windows:
+                Model  RMSE_Mean  RMSE_Std  MAE_Mean  MAE_Std   R2_Mean   R2_Std  Direction_Accuracy_Mean  Direction_Accuracy_Std  Windows  Rank
+       Adaptive LASSO   0.039018  0.009373  0.027569 0.006331 -0.018875 0.031601                 0.512589                0.014033       11     1
+      Classical LASSO   0.039021  0.009376  0.027578 0.006329 -0.018959 0.030940                 0.512911                0.014809       11     2
+          Elastic Net   0.039023  0.009382  0.027582 0.006338 -0.018973 0.030517                 0.513035                0.014194       11     3
+Regime-specific LASSO   0.039130  0.009901  0.027643 0.006902 -0.018990 0.019645                 0.527431                0.020062       11     4
+Proposed Prior - Full   0.039269  0.009799  0.027784 0.006830 -0.027872 0.023696                 0.519525                0.013372       11     5
+
+Best average RMSE model: Adaptive LASSO
+Proposed prior average RMSE: 0.039269 +/- 0.009799
+
+Research meaning:
+Rolling-window validation checks whether the fixed train-test result is stable across different market periods.
+If the proposed prior remains close to simpler sparse baselines, but does not dominate, this supports the earlier conclusion that real data has weaker regime-dependent structure than the strong simulation scenario.
