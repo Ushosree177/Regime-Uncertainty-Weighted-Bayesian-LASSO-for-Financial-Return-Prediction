@@ -1,0 +1,127 @@
+Case,Samples_Per_Regime,Model,Regime,Feature
+Weak,5000,Classical LASSO,All,Normalized_ATR
+Weak,5000,Classical LASSO,All,RSI_14
+Weak,5000,Classical LASSO,All,Volatility_20
+Weak,5000,Classical LASSO,All,Volume_Ratio
+Weak,5000,Standard Bayesian LASSO,All,Normalized_ATR
+Weak,5000,Standard Bayesian LASSO,All,RSI_14
+Weak,5000,Standard Bayesian LASSO,All,Volatility_20
+Weak,5000,Standard Bayesian LASSO,All,Volume_Ratio
+Weak,5000,Proposed Prior,Recovery,Momentum_10
+Weak,5000,Proposed Prior,Recovery,Normalized_ATR
+Weak,5000,Proposed Prior,Recovery,RSI_14
+Weak,5000,Proposed Prior,Recovery,Volatility_20
+Weak,5000,Proposed Prior,Recovery,Volume_Ratio
+Weak,5000,Proposed Prior,Bull,Close_to_EMA_20
+Weak,5000,Proposed Prior,Bull,Normalized_ATR
+Weak,5000,Proposed Prior,Bull,RSI_14
+Weak,5000,Proposed Prior,Bull,Volatility_20
+Weak,5000,Proposed Prior,Bull,Volume_Ratio
+Weak,5000,Proposed Prior,Bear,Normalized_ATR
+Weak,5000,Proposed Prior,Bear,RSI_14
+Weak,5000,Proposed Prior,Bear,Volatility_20
+Weak,5000,Proposed Prior,Bear,Volume_Ratio
+Weak,5000,Proposed Prior,Crisis,Normalized_ATR
+Weak,5000,Proposed Prior,Crisis,RSI_14
+Weak,5000,Proposed Prior,Crisis,Volatility_20
+Weak,5000,Proposed Prior,Crisis,Volume_Ratio
+Weak,10000,Classical LASSO,All,Normalized_ATR
+Weak,10000,Classical LASSO,All,RSI_14
+Weak,10000,Classical LASSO,All,Volatility_20
+Weak,10000,Classical LASSO,All,Volume_Ratio
+Weak,10000,Standard Bayesian LASSO,All,Normalized_ATR
+Weak,10000,Standard Bayesian LASSO,All,RSI_14
+Weak,10000,Standard Bayesian LASSO,All,Volatility_20
+Weak,10000,Standard Bayesian LASSO,All,Volume_Ratio
+Weak,10000,Proposed Prior,Recovery,Momentum_10
+Weak,10000,Proposed Prior,Recovery,Normalized_ATR
+Weak,10000,Proposed Prior,Recovery,RSI_14
+Weak,10000,Proposed Prior,Recovery,Volatility_20
+Weak,10000,Proposed Prior,Recovery,Volume_Ratio
+Weak,10000,Proposed Prior,Bull,Close_to_EMA_20
+Weak,10000,Proposed Prior,Bull,Normalized_ATR
+Weak,10000,Proposed Prior,Bull,RSI_14
+Weak,10000,Proposed Prior,Bull,Volatility_20
+Weak,10000,Proposed Prior,Bull,Volume_Ratio
+Weak,10000,Proposed Prior,Bear,ATR_14
+Weak,10000,Proposed Prior,Bear,Normalized_ATR
+Weak,10000,Proposed Prior,Bear,RSI_14
+Weak,10000,Proposed Prior,Bear,Volatility_20
+Weak,10000,Proposed Prior,Bear,Volume_Ratio
+Weak,10000,Proposed Prior,Crisis,Normalized_ATR
+Weak,10000,Proposed Prior,Crisis,RSI_14
+Weak,10000,Proposed Prior,Crisis,Volatility_20
+Weak,10000,Proposed Prior,Crisis,Volume_Ratio
+Strong,5000,Classical LASSO,All,ATR_14
+Strong,5000,Classical LASSO,All,Bollinger_Width
+Strong,5000,Classical LASSO,All,Close_to_EMA_20
+Strong,5000,Classical LASSO,All,Daily_Return
+Strong,5000,Classical LASSO,All,MACD
+Strong,5000,Classical LASSO,All,MACD_Histogram
+Strong,5000,Classical LASSO,All,Momentum_10
+Strong,5000,Classical LASSO,All,Normalized_ATR
+Strong,5000,Classical LASSO,All,OBV_Change
+Strong,5000,Classical LASSO,All,RSI_14
+Strong,5000,Classical LASSO,All,Volatility_20
+Strong,5000,Classical LASSO,All,Volume_Ratio
+Strong,5000,Standard Bayesian LASSO,All,ATR_14
+Strong,5000,Standard Bayesian LASSO,All,Bollinger_Width
+Strong,5000,Standard Bayesian LASSO,All,Close_to_EMA_10
+Strong,5000,Standard Bayesian LASSO,All,Close_to_EMA_20
+Strong,5000,Standard Bayesian LASSO,All,Daily_Return
+Strong,5000,Standard Bayesian LASSO,All,MACD
+Strong,5000,Standard Bayesian LASSO,All,MACD_Histogram
+Strong,5000,Standard Bayesian LASSO,All,Momentum_10
+Strong,5000,Standard Bayesian LASSO,All,Normalized_ATR
+Strong,5000,Standard Bayesian LASSO,All,OBV_Change
+Strong,5000,Standard Bayesian LASSO,All,RSI_14
+Strong,5000,Standard Bayesian LASSO,All,Volatility_20
+Strong,5000,Standard Bayesian LASSO,All,Volume_Ratio
+Strong,5000,Proposed Prior,Recovery,Momentum_10
+Strong,5000,Proposed Prior,Recovery,OBV_Change
+Strong,5000,Proposed Prior,Recovery,RSI_14
+Strong,5000,Proposed Prior,Bull,Close_to_EMA_20
+Strong,5000,Proposed Prior,Bull,MACD
+Strong,5000,Proposed Prior,Bull,Volume_Ratio
+Strong,5000,Proposed Prior,Bear,ATR_14
+Strong,5000,Proposed Prior,Bear,Bollinger_Width
+Strong,5000,Proposed Prior,Bear,Volatility_20
+Strong,5000,Proposed Prior,Crisis,Daily_Return
+Strong,5000,Proposed Prior,Crisis,MACD_Histogram
+Strong,5000,Proposed Prior,Crisis,Normalized_ATR
+Strong,10000,Classical LASSO,All,ATR_14
+Strong,10000,Classical LASSO,All,Bollinger_Width
+Strong,10000,Classical LASSO,All,Close_to_EMA_20
+Strong,10000,Classical LASSO,All,Daily_Return
+Strong,10000,Classical LASSO,All,MACD
+Strong,10000,Classical LASSO,All,MACD_Histogram
+Strong,10000,Classical LASSO,All,Momentum_10
+Strong,10000,Classical LASSO,All,Normalized_ATR
+Strong,10000,Classical LASSO,All,OBV_Change
+Strong,10000,Classical LASSO,All,RSI_14
+Strong,10000,Classical LASSO,All,Volatility_20
+Strong,10000,Classical LASSO,All,Volume_Ratio
+Strong,10000,Standard Bayesian LASSO,All,ATR_14
+Strong,10000,Standard Bayesian LASSO,All,Bollinger_Width
+Strong,10000,Standard Bayesian LASSO,All,Close_to_EMA_20
+Strong,10000,Standard Bayesian LASSO,All,Daily_Return
+Strong,10000,Standard Bayesian LASSO,All,MACD
+Strong,10000,Standard Bayesian LASSO,All,MACD_Histogram
+Strong,10000,Standard Bayesian LASSO,All,Momentum_10
+Strong,10000,Standard Bayesian LASSO,All,Normalized_ATR
+Strong,10000,Standard Bayesian LASSO,All,OBV_Change
+Strong,10000,Standard Bayesian LASSO,All,RSI_14
+Strong,10000,Standard Bayesian LASSO,All,Volatility_20
+Strong,10000,Standard Bayesian LASSO,All,Volume_Ratio
+Strong,10000,Proposed Prior,Recovery,Momentum_10
+Strong,10000,Proposed Prior,Recovery,OBV_Change
+Strong,10000,Proposed Prior,Recovery,RSI_14
+Strong,10000,Proposed Prior,Bull,Close_to_EMA_20
+Strong,10000,Proposed Prior,Bull,MACD
+Strong,10000,Proposed Prior,Bull,Volume_Ratio
+Strong,10000,Proposed Prior,Bear,ATR_14
+Strong,10000,Proposed Prior,Bear,Bollinger_Width
+Strong,10000,Proposed Prior,Bear,Volatility_20
+Strong,10000,Proposed Prior,Crisis,Daily_Return
+Strong,10000,Proposed Prior,Crisis,MACD_Histogram
+Strong,10000,Proposed Prior,Crisis,Normalized_ATR
