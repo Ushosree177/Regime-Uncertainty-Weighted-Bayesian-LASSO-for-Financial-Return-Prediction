@@ -1,0 +1,82 @@
+PRIOR FEASIBILITY CHECK
+
+Formula used:
+lambda_jr = lambda_0 * exp(gamma * U_r) / (I_jr + epsilon)^delta
+
+lambda_0 = 1.0
+gamma = 1.0
+delta = 1.0
+epsilon = 0.001
+
+TABLE 1: Regime uncertainty scores
+  Regime  Volatility  Persistence  Instability  Z_Volatility  Z_Instability       U_r
+Recovery    0.005565     0.976619     0.023381     -0.945725      -0.817239 -1.762964
+    Bull    0.008081     0.946904     0.053096     -0.641536       1.395147  0.753611
+    Bear    0.012947     0.959039     0.040961     -0.053227       0.491654  0.438427
+  Crisis    0.026956     0.980008     0.019992      1.640488      -1.069562  0.570927
+
+TABLE 2: Feature evidence scores I_jr
+Regime              Recovery      Bull      Bear    Crisis
+Feature                                                   
+ATR_14              0.676377  0.628324  0.765440  0.213887
+Bollinger_Position  0.214105  0.335221  0.168634  0.089024
+Bollinger_Width     0.222207  0.311600  0.613353  0.321655
+Close_to_EMA_10     0.294677  0.447397  0.115715  0.741496
+Close_to_EMA_20     0.257969  0.499640  0.077368  0.392511
+Close_to_EMA_50     0.404955  0.459691  0.640446  0.378395
+Close_to_SMA_10     0.264331  0.473818  0.202215  0.538830
+Close_to_SMA_20     0.392393  0.325874  0.258262  0.246969
+Close_to_SMA_50     0.367445  0.334099  0.332609  0.377754
+Daily_Return        0.298615  0.312950  0.215650  0.663808
+Log_Return          0.000000  0.134101  0.063455  0.080461
+MACD                0.294284  0.214233  0.245498  0.436278
+MACD_Histogram      0.134174  0.215712  0.206176  0.310660
+MACD_Signal         0.274640  0.185871  0.474652  0.375658
+Momentum_10         0.496231  0.122609  0.182080  0.010468
+Normalized_ATR      0.813413  1.000000  0.695846  0.947268
+OBV_Change          0.651674  0.363536  0.461954  0.523009
+ROC_10              0.345637  0.275953  0.587487  0.130840
+RSI_14              0.573099  0.173864  0.195167  0.180752
+Volatility_20       0.447601  0.439430  0.673376  0.366462
+Volume_Ratio        0.328591  0.498498  0.577040  0.426240
+
+TABLE 3: Generated shrinkage matrix lambda_jr
+Regime                Recovery       Bull       Bear      Crisis
+Feature                                                         
+ATR_14                0.253235   3.376096   2.022684    8.236451
+Bollinger_Position    0.797451   6.319231   9.138888   19.660383
+Bollinger_Width       0.768505   6.796731   2.523413    5.485445
+Close_to_EMA_10       0.580145   4.738342  13.282493    2.383725
+Close_to_EMA_20       0.662379   4.243884  19.781877    4.497730
+Close_to_EMA_50       0.422548   4.611894   2.416830    4.665075
+Close_to_SMA_10       0.646497   4.474679   7.628699    3.278636
+Close_to_SMA_20       0.436041   6.499930   5.979535    7.137611
+Close_to_SMA_50       0.465567   6.340390   4.646955    4.672971
+Daily_Return          0.572520   6.767505   7.155625    2.662282
+Log_Return          171.535652  15.726443  24.051914   21.727039
+MACD                  0.580918   9.871433   6.289163    4.047554
+MACD_Histogram        1.268999   9.804063   7.482846    5.678965
+MACD_Signal           0.622318  11.369652   3.259244    4.698974
+Momentum_10           0.344982  17.188540   8.467698  154.334348
+Normalized_ATR        0.210625   2.122536   2.224690    1.866462
+OBV_Change            0.262820   5.828391   3.348640    3.377626
+ROC_10                0.494857   7.671548   2.634325   13.424653
+RSI_14                0.298791  12.150346   7.902788    9.738029
+Volatility_20         0.382379   4.824054   2.298816    4.816570
+Volume_Ratio          0.520450   4.253587   2.681936    4.142651
+
+How to read lambda_jr:
+Smaller lambda = weaker shrinkage = feature is more likely to survive.
+Larger lambda = stronger shrinkage = feature is more likely to be removed.
+
+Lowest shrinkage feature in each regime:
+Recovery: Normalized_ATR with lambda = 0.210625
+Bull: Normalized_ATR with lambda = 2.122536
+Bear: ATR_14 with lambda = 2.022684
+Crisis: Normalized_ATR with lambda = 1.866462
+
+Highest shrinkage feature in each regime:
+Recovery: Log_Return with lambda = 171.535652
+Bull: Momentum_10 with lambda = 17.188540
+Bear: Log_Return with lambda = 24.051914
+Crisis: Momentum_10 with lambda = 154.334348

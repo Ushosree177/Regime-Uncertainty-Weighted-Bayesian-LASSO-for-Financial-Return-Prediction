@@ -1,0 +1,71 @@
+PRIOR SENSITIVITY ANALYSIS
+
+Question:
+Do shrinkage rankings remain stable when gamma and delta change?
+
+Gamma values tested: [0.5, 1.0, 2.0]
+Delta values tested: [0.5, 1.0, 2.0]
+
+Average Spearman rank correlation: 1.000000
+Minimum Spearman rank correlation: 1.000000
+
+Most stable low-shrinkage features by regime:
+
+Recovery
+  Regime        Feature  Top_K_Appearances  Total_Settings  Stability_Rate
+Recovery         ATR_14                  9               9             1.0
+Recovery    Momentum_10                  9               9             1.0
+Recovery Normalized_ATR                  9               9             1.0
+Recovery     OBV_Change                  9               9             1.0
+Recovery         RSI_14                  9               9             1.0
+
+Bull
+Regime         Feature  Top_K_Appearances  Total_Settings  Stability_Rate
+  Bull          ATR_14                  9               9             1.0
+  Bull Close_to_EMA_20                  9               9             1.0
+  Bull Close_to_SMA_10                  9               9             1.0
+  Bull  Normalized_ATR                  9               9             1.0
+  Bull    Volume_Ratio                  9               9             1.0
+
+Bear
+Regime         Feature  Top_K_Appearances  Total_Settings  Stability_Rate
+  Bear          ATR_14                  9               9             1.0
+  Bear Bollinger_Width                  9               9             1.0
+  Bear Close_to_EMA_50                  9               9             1.0
+  Bear  Normalized_ATR                  9               9             1.0
+  Bear   Volatility_20                  9               9             1.0
+
+Crisis
+Regime         Feature  Top_K_Appearances  Total_Settings  Stability_Rate
+Crisis Close_to_EMA_10                  9               9             1.0
+Crisis Close_to_SMA_10                  9               9             1.0
+Crisis    Daily_Return                  9               9             1.0
+Crisis  Normalized_ATR                  9               9             1.0
+Crisis      OBV_Change                  9               9             1.0
+
+Baseline top features for gamma=1, delta=1:
+            Setting  Gamma  Delta   Regime  Rank         Feature   Lambda
+gamma_1.0_delta_1.0    1.0    1.0 Recovery     1  Normalized_ATR 0.210625
+gamma_1.0_delta_1.0    1.0    1.0 Recovery     2          ATR_14 0.253235
+gamma_1.0_delta_1.0    1.0    1.0 Recovery     3      OBV_Change 0.262820
+gamma_1.0_delta_1.0    1.0    1.0 Recovery     4          RSI_14 0.298791
+gamma_1.0_delta_1.0    1.0    1.0 Recovery     5     Momentum_10 0.344982
+gamma_1.0_delta_1.0    1.0    1.0     Bull     1  Normalized_ATR 2.122536
+gamma_1.0_delta_1.0    1.0    1.0     Bull     2          ATR_14 3.376096
+gamma_1.0_delta_1.0    1.0    1.0     Bull     3 Close_to_EMA_20 4.243884
+gamma_1.0_delta_1.0    1.0    1.0     Bull     4    Volume_Ratio 4.253587
+gamma_1.0_delta_1.0    1.0    1.0     Bull     5 Close_to_SMA_10 4.474679
+gamma_1.0_delta_1.0    1.0    1.0     Bear     1          ATR_14 2.022685
+gamma_1.0_delta_1.0    1.0    1.0     Bear     2  Normalized_ATR 2.224691
+gamma_1.0_delta_1.0    1.0    1.0     Bear     3   Volatility_20 2.298817
+gamma_1.0_delta_1.0    1.0    1.0     Bear     4 Close_to_EMA_50 2.416831
+gamma_1.0_delta_1.0    1.0    1.0     Bear     5 Bollinger_Width 2.523414
+gamma_1.0_delta_1.0    1.0    1.0   Crisis     1  Normalized_ATR 1.866463
+gamma_1.0_delta_1.0    1.0    1.0   Crisis     2 Close_to_EMA_10 2.383726
+gamma_1.0_delta_1.0    1.0    1.0   Crisis     3    Daily_Return 2.662283
+gamma_1.0_delta_1.0    1.0    1.0   Crisis     4 Close_to_SMA_10 3.278638
+gamma_1.0_delta_1.0    1.0    1.0   Crisis     5      OBV_Change 3.377627
+
+Interpretation guide:
+High rank correlation means the prior ranking is stable.
+High stability rate means a feature survives across many parameter settings.
