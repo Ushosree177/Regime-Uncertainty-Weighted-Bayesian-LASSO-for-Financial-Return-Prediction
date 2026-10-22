@@ -1,6 +1,6 @@
 # Manuscript and Reproducibility Guide
 
-This folder contains the Springer Nature LaTeX manuscript, figures, analysis code, and saved outputs for the study on regime-specific Bayesian LASSO forecasting. This guide explains what each part contains, how the analysis is organized, and how to rebuild the paper files.
+This repository contains the analysis code and result files for the study. The manuscript is not included. The reproducibility package is reproducibility_package_code_results.zip. Raw market-price data are not included; the scripts retrieve data through Yahoo Finance, so results may vary if the provider revises its data.
 
 > **Important:** This is a local working and submission-preparation folder. The manuscript and outputs are not all included in the public code archive. Before journal submission, check the journal's current instructions, confirm author and affiliation details, and provide the final public archive link and DOI where required.
 
